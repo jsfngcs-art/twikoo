@@ -23,6 +23,7 @@
   "scripts": {
     "dev": "webpack serve --mode development",
     "serve": "webpack serve --mode development",
+    "start": "node dist/index.js", 
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "analyze": "webpack --profile --json > stats.json && webpack-bundle-analyzer stats.json",
     "login": "tcb login",
